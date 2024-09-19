@@ -1,8 +1,6 @@
-import dynamic from 'next/dynamic';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-const Custom404 = dynamic(() => import('@/pages/404'));
-
+import Custom404 from '@/pages/404';
 
 export default function NotFound() {
   return (
