@@ -54,7 +54,7 @@ const Link = styled.a`
   }
 `;
 
-export default function Custom404() {
+export function Custom404() {
     return (
         <Section>
             <Container>
